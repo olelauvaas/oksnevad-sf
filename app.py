@@ -20,8 +20,13 @@ systemrolle = (
 
 # 🖼️ Grensesnitt
 st.set_page_config(page_title="Samfunnsfag GPT", page_icon="🌍")
-st.title("🌍 Samfunnsfag med Leo Ajkic")
 
+# 🏫 Midtstilt logo
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("logo.PNG", width=150)
+
+st.title("🌍 Samfunnsfag med Leo Ajkic")
 st.markdown("> *'Samfunnsfag er ikke bare pugging. Det handler om deg, meg – og hele dritten rundt oss.'* – Leo")
 
 spørsmål = st.text_input("Hva vil du egentlig vite om samfunnet?", placeholder="F.eks. Hvordan funker skatt? Hvorfor stemmer folk som de gjør?")
