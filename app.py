@@ -24,7 +24,7 @@ st.set_page_config(page_title="Samfunnsfag GPT", page_icon="🌍")
 # 🏫 Midtstilt logo
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("logo.PNG", width=150)
+    st.image("logo.PNG", width=400)
 
 st.title("🌍 Samfunnsfag med Leo Ajkic")
 st.markdown("> *'Samfunnsfag er ikke bare pugging. Det handler om deg, meg – og hele dritten rundt oss.'* – Leo")
